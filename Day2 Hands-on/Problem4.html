@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel and Tourism Booking</title>
+</head>
+
+<body>
+
+<header>
+    <h1 align="center">Travel and Tourism Booking Platform</h1>
+</header>
+
+<main>
+
+<section align="center">
+
+    <video width="600" controls poster="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfqVvy8KrZwb-z1e8Aa4O9FFXFGo6WXCu7RQ&s">
+        <source src="Video4.mp4" type="video/mp4">
+        <source src="travel.webm" type="video/webm">
+    </video>
+
+    <br><br>
+
+    <h2>Travel Theme Audio</h2>
+
+    <audio controls autoplay loop>
+        <source src="15s.mp3" type="audio/mpeg">
+        <source src="12s.mp3" type="audio/ogg">
+    </audio>
+
+</section>
+
+<br><br>
+
+<section>
+
+    <h2 align="center">Travel Booking Form</h2>
+
+    <form>
+
+        <table border="1" cellpadding="10" align="center">
+
+            <tr>
+                <td>Source City</td>
+                <td>
+                    <input list="sourceCities"
+                           name="source"
+                           placeholder="Enter source city"
+                           required>
+
+                    <datalist id="sourceCities">
+                        <option value="Hyderabad">
+                        <option value="Chennai">
+                        <option value="Delhi">
+                        <option value="Mumbai">
+                        <option value="Bangalore">
+                    </datalist>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Destination City</td>
+                <td>
+                    <input list="destinationCities"
+                           name="destination"
+                           placeholder="Enter destination city"
+                           required>
+
+                    <datalist id="destinationCities">
+                        <option value="Goa">
+                        <option value="Kerala">
+                        <option value="Jaipur">
+                        <option value="Kolkata">
+                        <option value="Pune">
+                    </datalist>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Travel Date</td>
+                <td>
+                    <input type="date"
+                           name="travelDate"
+                           id="travelDate"
+                           required
+                           onchange="setReturnMin()">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Return Date</td>
+                <td>
+                    <input type="date"
+                           name="returnDate"
+                           id="returnDate"
+                           required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Travel Class</td>
+                <td>
+                    <select name="class" required>
+                        <option value="">Select Class</option>
+                        <option>Economy</option>
+                        <option>Business</option>
+                        <option>First Class</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Preferred Airline</td>
+                <td>
+                    <input list="airlines"
+                           name="airline"
+                           placeholder="Select or type airline">
+
+                    <datalist id="airlines">
+                        <option value="IndiGo">
+                        <option value="Air India">
+                        <option value="SpiceJet">
+                        <option value="Vistara">
+                    </datalist>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Number of Passengers</td>
+                <td>
+                    <input type="number"
+                           name="passengers"
+                           min="1"
+                           max="10"
+                           required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Meal Preference</td>
+                <td>
+                    <input type="color"
+                           name="mealColor">
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>Special Assistance Notes</td>
+                <td>
+                    <textarea rows="4"
+                              cols="30"
+                              placeholder="Enter special assistance requirements"></textarea>
+                </td>
+            </tr>
+
+            <tr align="center">
+                <td colspan="2">
+                    <input type="submit" value="Book Now">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</section>
+
+</main>
+
+<footer>
+    <p align="center">
+        &copy; 2026 Travel and Tourism Platform
+    </p>
+</footer>
+
+</body>
+</html>

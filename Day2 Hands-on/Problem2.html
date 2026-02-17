@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Appointment Booking</title>
+</head>
+
+<body>
+    <header>
+        <h1 align="center">CityCare Hospital</h1>
+        <hr>
+    </header>
+
+    <main>
+
+        <section>
+            <h2 align="center">Online Appointment Booking</h2>
+
+            <form>
+
+                <table border="0" cellpadding="10" align="center">
+
+                    <tr>
+                        <td><label>Full Name:</label></td>
+                        <td>
+                            <input type="text"
+                                   name="fullname"
+                                   placeholder="Enter full name"
+                                   required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Age:</label></td>
+                        <td>
+                            <input type="number"
+                                   name="age"
+                                   min="0"
+                                   max="120"
+                                   required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Phone Number:</label></td>
+                        <td>
+                            <input type="tel"
+                                   name="phone"
+                                   pattern="[0-9]{10}"
+                                   placeholder="10 digit number"
+                                   required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Email:</label></td>
+                        <td>
+                            <input type="email"
+                                   name="email"
+                                   required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Department:</label></td>
+                        <td>
+                            <input list="departments"
+                                   name="department"
+                                   placeholder="Type department"
+                                   required>
+
+                            <datalist id="departments">
+                                <option value="Cardiology">
+                                <option value="Neurology">
+                                <option value="Orthopedics">
+                                <option value="Pediatrics">
+                                <option value="Dermatology">
+                            </datalist>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Preferred Doctor:</label></td>
+                        <td>
+                            <input list="doctors"
+                                   name="doctor"
+                                   placeholder="Select or type doctor">
+
+                            <datalist id="doctors">
+                                <option value="Dr. Kavya">
+                                <option value="Dr. Sri">
+                                <option value="Dr. Kiran">
+                                <option value="Dr. Reddy">
+                            </datalist>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Appointment Date</label></td>
+                        <td>
+                            <input type="date"
+                                   name="date"
+                                   min="2026-02-18"
+                                   required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Appointment Time:</label></td>
+                        <td>
+                            <input type="time"
+                                   name="time">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Emergency Case:</label></td>
+                        <td>
+                            <input type="checkbox"
+                                   onclick="document.getElementsByName('time')[0].disabled=this.checked;">
+                            Yes
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Medical Reports:</label></td>
+                        <td>
+                            <input type="file"
+                                   name="reports"
+                                   multiple
+                                   required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Address:</label></td>
+                        <td>
+                            <textarea name="address"
+                                      rows="4"
+                                      cols="30"
+                                      placeholder="Enter address"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr align="center">
+                        <td colspan="2">
+                            <input type="submit" value="Book Appointment">
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+
+                </table>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p align="center">
+            &copy; 2026 CityCare Hospital. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
