@@ -38,5 +38,3 @@ myWallet.addMoney(500);
 myWallet.spendMoney(300);
 
 console.log("Current Balance:", myWallet.getBalance());
-
-console.log(myWallet.balance);
