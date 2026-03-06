@@ -20,6 +20,9 @@ The system is built using JavaScript with modular architecture and uses JSON Ser
 - Update existing events
 - Delete events
 - View all events
+
+<img width="1366" height="768" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/fb02a28a-baf6-404f-9656-fc1421cda9ba" />
+
 - View number of registrations per event
 
 ### User Features
@@ -34,22 +37,6 @@ The system is built using JavaScript with modular architecture and uses JSON Ser
 - Registration cannot exceed event capacity
 - Past events cannot be registered
 - Events with registrations cannot be deleted
-
-## Project Structure
-
-event-management/
-│
-├── index.html
-├── add-event.html
-├── register.html
-│
-├── js/
-│ ├── models/
-│ ├── services/
-│ ├── controllers/
-│ ├── utils/
-│
-└── db.json
 
 ## How to Run the Project
 
