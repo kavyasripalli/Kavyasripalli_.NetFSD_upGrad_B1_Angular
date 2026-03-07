@@ -1,0 +1,14 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "JavaScript Basics",
+      "author": "Kavya"
+    },
+    {
+      "id": "2",
+      "title": "jQuery Guide",
+      "author": "Sri"
+    }
+  ]
+}

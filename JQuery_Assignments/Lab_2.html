@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery DOM Manipulation</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <h2 id="textElement">Original Text</h2>
+
+    <div id="htmlElement">Simple Content</div>
+
+    <input type="text" id="nameInput" value="Old Value">
+
+    <button id="changeText">Change Text</button>
+    <button id="changeHTML">Change HTML</button>
+    <button id="changeValue">Change Input Value</button>
+    <button id="addElement">Add Element</button>
+    <button id="removeElement">Remove Element</button>
+
+    <hr>
+
+    <h3>Todo List</h3>
+
+    <input type="text" id="taskInput" placeholder="Enter task">
+
+    <button id="addTask">Add Task</button>
+    <button id="clearTasks">Clear All</button>
+
+    <ul id="taskList"></ul>
+
+    <script>
+        $(document).ready(function(){
+
+            $("#changeText").click(function(){
+                $("#textElement").text("Text Changed using text()");
+            });
+
+            $("#changeHTML").click(function(){
+                $("#htmlElement").html("<b>HTML Changed using html()</b>");
+            });
+
+            $("#changeValue").click(function(){
+                $("#nameInput").val("New Input Value");
+            });
+
+            $("#addElement").click(function(){
+                $("#htmlElement").append("<p>New Element Added</p>");
+            });
+
+            $("#removeElement").click(function(){
+                $("#htmlElement").remove();
+            });
+
+            $("#addTask").click(function(){
+                var task = $("#taskInput").val();
+                $("#taskList").append("<li>"+task+" <button class='delete'>Delete</button></li>");
+                $("#taskInput").val("");
+            });
+
+            $(document).on("click",".delete",function(){
+                $(this).parent().remove();
+            });
+
+            $("#clearTasks").click(function(){
+                $("#taskList").empty();
+            });
+
+        });
+    </script>
+
+</body>
+</html>
