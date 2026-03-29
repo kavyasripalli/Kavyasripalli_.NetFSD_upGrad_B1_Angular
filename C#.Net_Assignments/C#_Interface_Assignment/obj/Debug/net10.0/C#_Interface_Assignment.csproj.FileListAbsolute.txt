@@ -1,0 +1,15 @@
+D:\UpGrad\C#.Net_Assignments\C#_Interface_Assignment\obj\Debug\net10.0\C#_Interface_Assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\UpGrad\C#.Net_Assignments\C#_Interface_Assignment\obj\Debug\net10.0\C#_Interface_Assignment.AssemblyInfoInputs.cache
+D:\UpGrad\C#.Net_Assignments\C#_Interface_Assignment\obj\Debug\net10.0\C#_Interface_Assignment.AssemblyInfo.cs
+D:\UpGrad\C#.Net_Assignments\C#_Interface_Assignment\obj\Debug\net10.0\C#_Interface_Assignment.csproj.CoreCompileInputs.cache
+D:\UpGrad\C#.Net_Assignments\C#_Interface_Assignment\obj\Debug\net10.0\C#_Interface_Assignment.sourcelink.json
+D:\UpGrad\C#.Net_Assignments\C#_Interface_Assignment\bin\Debug\net10.0\C#_Interface_Assignment.exe
+D:\UpGrad\C#.Net_Assignments\C#_Interface_Assignment\bin\Debug\net10.0\C#_Interface_Assignment.deps.json
+D:\UpGrad\C#.Net_Assignments\C#_Interface_Assignment\bin\Debug\net10.0\C#_Interface_Assignment.runtimeconfig.json
+D:\UpGrad\C#.Net_Assignments\C#_Interface_Assignment\bin\Debug\net10.0\C#_Interface_Assignment.dll
+D:\UpGrad\C#.Net_Assignments\C#_Interface_Assignment\bin\Debug\net10.0\C#_Interface_Assignment.pdb
+D:\UpGrad\C#.Net_Assignments\C#_Interface_Assignment\obj\Debug\net10.0\C#_Interface_Assignment.dll
+D:\UpGrad\C#.Net_Assignments\C#_Interface_Assignment\obj\Debug\net10.0\refint\C#_Interface_Assignment.dll
+D:\UpGrad\C#.Net_Assignments\C#_Interface_Assignment\obj\Debug\net10.0\C#_Interface_Assignment.pdb
+D:\UpGrad\C#.Net_Assignments\C#_Interface_Assignment\obj\Debug\net10.0\C#_Interface_Assignment.genruntimeconfig.cache
+D:\UpGrad\C#.Net_Assignments\C#_Interface_Assignment\obj\Debug\net10.0\ref\C#_Interface_Assignment.dll
