@@ -1,0 +1,15 @@
+D:\UpGrad\C#.Net_Assignments\C#_Collection_Assignment\bin\Debug\net10.0\C#_Collection_Assignment.exe
+D:\UpGrad\C#.Net_Assignments\C#_Collection_Assignment\bin\Debug\net10.0\C#_Collection_Assignment.deps.json
+D:\UpGrad\C#.Net_Assignments\C#_Collection_Assignment\bin\Debug\net10.0\C#_Collection_Assignment.runtimeconfig.json
+D:\UpGrad\C#.Net_Assignments\C#_Collection_Assignment\bin\Debug\net10.0\C#_Collection_Assignment.dll
+D:\UpGrad\C#.Net_Assignments\C#_Collection_Assignment\bin\Debug\net10.0\C#_Collection_Assignment.pdb
+D:\UpGrad\C#.Net_Assignments\C#_Collection_Assignment\obj\Debug\net10.0\C#_Collection_Assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\UpGrad\C#.Net_Assignments\C#_Collection_Assignment\obj\Debug\net10.0\C#_Collection_Assignment.AssemblyInfoInputs.cache
+D:\UpGrad\C#.Net_Assignments\C#_Collection_Assignment\obj\Debug\net10.0\C#_Collection_Assignment.AssemblyInfo.cs
+D:\UpGrad\C#.Net_Assignments\C#_Collection_Assignment\obj\Debug\net10.0\C#_Collection_Assignment.csproj.CoreCompileInputs.cache
+D:\UpGrad\C#.Net_Assignments\C#_Collection_Assignment\obj\Debug\net10.0\C#_Collection_Assignment.sourcelink.json
+D:\UpGrad\C#.Net_Assignments\C#_Collection_Assignment\obj\Debug\net10.0\C#_Collection_Assignment.dll
+D:\UpGrad\C#.Net_Assignments\C#_Collection_Assignment\obj\Debug\net10.0\refint\C#_Collection_Assignment.dll
+D:\UpGrad\C#.Net_Assignments\C#_Collection_Assignment\obj\Debug\net10.0\C#_Collection_Assignment.pdb
+D:\UpGrad\C#.Net_Assignments\C#_Collection_Assignment\obj\Debug\net10.0\C#_Collection_Assignment.genruntimeconfig.cache
+D:\UpGrad\C#.Net_Assignments\C#_Collection_Assignment\obj\Debug\net10.0\ref\C#_Collection_Assignment.dll
