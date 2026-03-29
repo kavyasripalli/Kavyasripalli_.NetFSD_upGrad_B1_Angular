@@ -1,0 +1,15 @@
+D:\UpGrad\C#.Net_Assignments\C#_Basic_Assignment_2\bin\Debug\net10.0\C#_Basic_Assignment_2.exe
+D:\UpGrad\C#.Net_Assignments\C#_Basic_Assignment_2\bin\Debug\net10.0\C#_Basic_Assignment_2.deps.json
+D:\UpGrad\C#.Net_Assignments\C#_Basic_Assignment_2\bin\Debug\net10.0\C#_Basic_Assignment_2.runtimeconfig.json
+D:\UpGrad\C#.Net_Assignments\C#_Basic_Assignment_2\bin\Debug\net10.0\C#_Basic_Assignment_2.dll
+D:\UpGrad\C#.Net_Assignments\C#_Basic_Assignment_2\bin\Debug\net10.0\C#_Basic_Assignment_2.pdb
+D:\UpGrad\C#.Net_Assignments\C#_Basic_Assignment_2\obj\Debug\net10.0\C#_Basic_Assignment_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\UpGrad\C#.Net_Assignments\C#_Basic_Assignment_2\obj\Debug\net10.0\C#_Basic_Assignment_2.AssemblyInfoInputs.cache
+D:\UpGrad\C#.Net_Assignments\C#_Basic_Assignment_2\obj\Debug\net10.0\C#_Basic_Assignment_2.AssemblyInfo.cs
+D:\UpGrad\C#.Net_Assignments\C#_Basic_Assignment_2\obj\Debug\net10.0\C#_Basic_Assignment_2.csproj.CoreCompileInputs.cache
+D:\UpGrad\C#.Net_Assignments\C#_Basic_Assignment_2\obj\Debug\net10.0\C#_Basic_Assignment_2.sourcelink.json
+D:\UpGrad\C#.Net_Assignments\C#_Basic_Assignment_2\obj\Debug\net10.0\C#_Basic_Assignment_2.dll
+D:\UpGrad\C#.Net_Assignments\C#_Basic_Assignment_2\obj\Debug\net10.0\refint\C#_Basic_Assignment_2.dll
+D:\UpGrad\C#.Net_Assignments\C#_Basic_Assignment_2\obj\Debug\net10.0\C#_Basic_Assignment_2.pdb
+D:\UpGrad\C#.Net_Assignments\C#_Basic_Assignment_2\obj\Debug\net10.0\C#_Basic_Assignment_2.genruntimeconfig.cache
+D:\UpGrad\C#.Net_Assignments\C#_Basic_Assignment_2\obj\Debug\net10.0\ref\C#_Basic_Assignment_2.dll
