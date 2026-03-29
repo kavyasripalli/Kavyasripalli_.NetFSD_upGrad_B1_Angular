@@ -1,0 +1,6 @@
+Student Name: Kavya
+Roll Number: 101
+Marks: 98, 87, 89
+Total: 274
+Average: 91.33333333333333
+Grade: A

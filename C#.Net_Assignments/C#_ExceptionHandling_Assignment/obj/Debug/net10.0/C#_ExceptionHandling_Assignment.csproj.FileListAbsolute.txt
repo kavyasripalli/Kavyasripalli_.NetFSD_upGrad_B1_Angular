@@ -1,0 +1,15 @@
+D:\UpGrad\C#.Net_Assignments\C#_ExceptionHandling_Assignment\bin\Debug\net10.0\C#_ExceptionHandling_Assignment.exe
+D:\UpGrad\C#.Net_Assignments\C#_ExceptionHandling_Assignment\bin\Debug\net10.0\C#_ExceptionHandling_Assignment.deps.json
+D:\UpGrad\C#.Net_Assignments\C#_ExceptionHandling_Assignment\bin\Debug\net10.0\C#_ExceptionHandling_Assignment.runtimeconfig.json
+D:\UpGrad\C#.Net_Assignments\C#_ExceptionHandling_Assignment\bin\Debug\net10.0\C#_ExceptionHandling_Assignment.dll
+D:\UpGrad\C#.Net_Assignments\C#_ExceptionHandling_Assignment\bin\Debug\net10.0\C#_ExceptionHandling_Assignment.pdb
+D:\UpGrad\C#.Net_Assignments\C#_ExceptionHandling_Assignment\obj\Debug\net10.0\C#_ExceptionHandling_Assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\UpGrad\C#.Net_Assignments\C#_ExceptionHandling_Assignment\obj\Debug\net10.0\C#_ExceptionHandling_Assignment.AssemblyInfoInputs.cache
+D:\UpGrad\C#.Net_Assignments\C#_ExceptionHandling_Assignment\obj\Debug\net10.0\C#_ExceptionHandling_Assignment.AssemblyInfo.cs
+D:\UpGrad\C#.Net_Assignments\C#_ExceptionHandling_Assignment\obj\Debug\net10.0\C#_ExceptionHandling_Assignment.csproj.CoreCompileInputs.cache
+D:\UpGrad\C#.Net_Assignments\C#_ExceptionHandling_Assignment\obj\Debug\net10.0\C#_ExceptionHandling_Assignment.sourcelink.json
+D:\UpGrad\C#.Net_Assignments\C#_ExceptionHandling_Assignment\obj\Debug\net10.0\C#_ExceptionHandling_Assignment.dll
+D:\UpGrad\C#.Net_Assignments\C#_ExceptionHandling_Assignment\obj\Debug\net10.0\refint\C#_ExceptionHandling_Assignment.dll
+D:\UpGrad\C#.Net_Assignments\C#_ExceptionHandling_Assignment\obj\Debug\net10.0\C#_ExceptionHandling_Assignment.pdb
+D:\UpGrad\C#.Net_Assignments\C#_ExceptionHandling_Assignment\obj\Debug\net10.0\C#_ExceptionHandling_Assignment.genruntimeconfig.cache
+D:\UpGrad\C#.Net_Assignments\C#_ExceptionHandling_Assignment\obj\Debug\net10.0\ref\C#_ExceptionHandling_Assignment.dll
