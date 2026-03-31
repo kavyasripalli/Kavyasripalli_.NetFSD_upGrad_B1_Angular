@@ -1,0 +1,27 @@
+﻿@model MVC_Assignment_3.ViewModels.UserViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Profile</title>
+</head>
+<body>
+    <div class="container mt-5 text-center">
+        <h2>User Profile</h2>
+
+        <div class="card w-50 mx-auto mt-4 p-3">
+            <h4>@Model.Name</h4>
+            <p>@Model.Email</p>
+
+            <a asp-action="Edit" class="btn btn-warning m-2">Edit</a>
+            <a asp-action="Logout" class="btn btn-danger m-2">Logout</a>
+        </div>
+    </div>
+</body>
+</html>

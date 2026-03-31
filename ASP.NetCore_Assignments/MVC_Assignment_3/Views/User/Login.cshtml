@@ -1,0 +1,37 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">Login</h2>
+
+        <form asp-action="Login" class="w-50 mx-auto">
+
+            <div class="mb-3">
+                <input name="email" class="form-control" placeholder="Enter Email" />
+            </div>
+
+            <div class="mb-3">
+                <input name="password" type="password" class="form-control" placeholder="Enter Password" />
+            </div>
+
+            <button class="btn btn-success w-100">Login</button>
+        </form>
+
+        <p class="text-danger text-center mt-2">@ViewBag.Error</p>
+
+        <div class="text-center mt-3">
+            <a asp-action="Register">New User? Register</a>
+        </div>
+    </div>
+</body>
+</html>

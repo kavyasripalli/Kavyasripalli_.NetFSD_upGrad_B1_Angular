@@ -1,0 +1,47 @@
+﻿@model MVC_Assignment_3.Models.User
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">Register</h2>
+
+        <form asp-action="Register" class="w-50 mx-auto">
+
+            <div class="mb-3">
+                <input asp-for="Name" class="form-control" placeholder="Enter Name" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <input asp-for="Email" class="form-control" placeholder="Enter Email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <input asp-for="Password" type="password" class="form-control" placeholder="Enter Password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="Confirm Password" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+
+            <button class="btn btn-primary w-100">Register</button>
+        </form>
+
+        <div class="text-center mt-3">
+            <a asp-action="Login">Already have account? Login</a>
+        </div>
+    </div>
+</body>
+</html>
