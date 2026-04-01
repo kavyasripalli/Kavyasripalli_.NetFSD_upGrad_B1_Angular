@@ -1,0 +1,63 @@
+﻿@model List<MVC_Assignment_2.Models.Student>
+@*<model MVC_Assignment_2.Models.Student>*@
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @*@<h2>Student Details</h2>
+
+    <p><strong>Name:</strong> @Model.Name</p>
+    <p><strong>Age:</strong> @Model.Age</p>
+    <p><strong>Email:</strong> @Model.Email</p>*@
+
+    @*@<h2>Student Info</h2>
+
+    <p><strong>Name:</strong> @ViewBag.StudentName</p>
+
+    <p><strong>Age:</strong> @ViewData["StudentAge"]</p>*@
+
+    @if (TempData["Success"] != null)
+    {
+        <p style="color:green">@TempData["Success"]</p>
+    }
+
+    <h1>Student Registration Portal</h1>
+
+    <h2>Student List</h2>
+
+    <a href="/Student/Create">Add Student</a>
+    
+    <table border="1">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.Id</td>
+            <td>@s.Name</td>
+            <td>@s.Age</td>
+            <td>@s.Email</td>
+            <td>
+                <a href="/Student/Edit/@s.Id">Edit</a> |
+                <a href="/Student/Delete/@s.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </table>
+</body>
+</html>

@@ -1,0 +1,106 @@
+﻿@model MVC_Assignment_2.Models.Student
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    @*<h2>Student Form</h2>
+
+    <form asp-action="Create">
+
+        Name:
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+        <br />
+
+        Age:
+        <input asp-for="Age" />
+        <span asp-validation-for="Age"></span>
+        <br />
+
+        Email:
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+        <br />
+
+        <button type="submit">Submit</button>
+
+    </form>*@
+
+    @*@<h2>Student Form (HTML Helpers)</h2>
+
+    @using (Html.BeginForm())
+    {
+        <div>
+            Name:
+            @Html.TextBoxFor(m => m.Name)
+            @Html.ValidationMessageFor(m => m.Name)
+        </div>
+
+        <br />
+
+        <div>
+            Age:
+            @Html.TextBoxFor(m => m.Age)
+            @Html.ValidationMessageFor(m => m.Age)
+        </div>
+
+        <br />
+
+        <div>
+            Email:
+            @Html.TextBoxFor(m => m.Email)
+            @Html.ValidationMessageFor(m => m.Email)
+        </div>
+
+        <br />
+
+        <button type="submit">Submit</button>
+    }*@
+
+    <h2>Student Form (Tag Helpers)</h2>
+
+    <form asp-action="Create" asp-controller="Student">
+
+        <div>
+            Name:
+            <input asp-for="Name" />
+            <span asp-validation-for="Name"></span>
+        </div>
+
+        <br />
+
+        <div>
+            Age:
+            <input asp-for="Age" />
+            <span asp-validation-for="Age"></span>
+        </div>
+
+        <br />
+
+        <div>
+            Email:
+            <input asp-for="Email" />
+            <span asp-validation-for="Email"></span>
+        </div>
+
+        <br />
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+</body>
+</html>
