@@ -6,7 +6,7 @@ namespace Ado.Net_Assignments
 {
     internal class Assignment4
     {
-        string connectionString = "Data Source=LAPTOP-RRH9QFR3\\SQLEXPRESS01;Initial Catalog=StudentDB;Integrated Security=True;Trust Server Certificate=True";
+        string connectionString = "Data Source=DESKTOP-DA9RDQ5\\SQLEXPRESS;Initial Catalog=StudentDB;Integrated Security=True;Trust Server Certificate=True";
 
         public void CreateOrder()
         {
