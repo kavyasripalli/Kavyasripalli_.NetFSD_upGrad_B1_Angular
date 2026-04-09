@@ -1,0 +1,60 @@
+﻿@model IEnumerable<MovieApp.Data.Models.Movie>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2 class="text-center text-primary mb-4">🎬 Movie List</h2>
+
+<div class="row mb-3">
+    <div class="col-md-8">
+        <form method="get" class="d-flex gap-2">
+            <input type="text" name="genre" class="form-control" placeholder="Search by Genre" />
+            
+            <select name="sortOrder" class="form-select">
+                <option value="">Sort By</option>
+                <option value="rating_desc">Rating ↓</option>
+                <option value="date_desc">Latest</option>
+            </select>
+
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    </div>
+
+    <div class="col-md-4 text-end">
+        <a asp-action="Create" class="btn btn-success">➕ Add Movie</a>
+    </div>
+</div>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>Title</th>
+            <th>Genre</th>
+            <th>Release Date</th>
+            <th>Duration</th>
+            <th>Rating</th>
+            <th>Language</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.Genre</td>
+                <td>@item.ReleaseDate.ToShortDateString()</td>
+                <td>@item.Duration mins</td>
+                <td>@item.Rating ⭐</td>
+                <td>@item.Language</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.MovieId" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.MovieId" class="btn btn-info btn-sm">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.MovieId" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

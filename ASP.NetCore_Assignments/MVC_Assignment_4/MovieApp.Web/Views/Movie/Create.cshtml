@@ -1,0 +1,62 @@
+﻿@using System
+@model MovieApp.Data.Models.Movie
+
+@{
+    ViewData["Title"] = "Create";
+    var today = DateTime.Now.ToString("yyyy-MM-dd");
+}
+
+<h2 class="text-center text-success mb-4">➕ Add Movie</h2>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<div>
+    <form asp-action="Create" class="container">
+
+        <div class="mb-3">
+            <label class="form-label">Title</label>
+            <input asp-for="Title" class="form-control" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label>Genre</label>
+            <select asp-for="Genre" class="form-control">
+                <option>Action</option>
+                <option>Comedy</option>
+                <option>Drama</option>
+                <option>Horror</option>
+                <option>Romance</option>
+                <option>Sci-Fi</option>
+                <option>Thriller</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label>Release Date</label>
+            <input asp-for="ReleaseDate" type="date" class="form-control" min="@today" />
+        </div>
+
+        <div class="mb-3">
+            <label>Duration</label>
+            <input asp-for="Duration" class="form-control" min="1" />
+        </div>
+
+        <div class="mb-3">
+            <label>Rating</label>
+            <input asp-for="Rating" class="form-control" min="1" max="10" />
+        </div>
+
+        <div class="mb-3">
+            <label>Language</label>
+            <input asp-for="Language" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-success">Save</button>
+        <a asp-action="Index" class="btn btn-secondary">Back</a>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

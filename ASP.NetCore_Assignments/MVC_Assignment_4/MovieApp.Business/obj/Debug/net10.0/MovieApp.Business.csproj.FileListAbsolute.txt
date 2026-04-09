@@ -1,0 +1,15 @@
+D:\UpGrad\ASP.NetCore_Assignments\MVC_Assignment_4\MovieApp.Business\bin\Debug\net10.0\MovieApp.Business.deps.json
+D:\UpGrad\ASP.NetCore_Assignments\MVC_Assignment_4\MovieApp.Business\bin\Debug\net10.0\MovieApp.Business.dll
+D:\UpGrad\ASP.NetCore_Assignments\MVC_Assignment_4\MovieApp.Business\bin\Debug\net10.0\MovieApp.Business.pdb
+D:\UpGrad\ASP.NetCore_Assignments\MVC_Assignment_4\MovieApp.Business\bin\Debug\net10.0\MovieApp.Data.dll
+D:\UpGrad\ASP.NetCore_Assignments\MVC_Assignment_4\MovieApp.Business\bin\Debug\net10.0\MovieApp.Data.pdb
+D:\UpGrad\ASP.NetCore_Assignments\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.Business.csproj.AssemblyReference.cache
+D:\UpGrad\ASP.NetCore_Assignments\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\UpGrad\ASP.NetCore_Assignments\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.Business.AssemblyInfoInputs.cache
+D:\UpGrad\ASP.NetCore_Assignments\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.Business.AssemblyInfo.cs
+D:\UpGrad\ASP.NetCore_Assignments\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.Business.csproj.CoreCompileInputs.cache
+D:\UpGrad\ASP.NetCore_Assignments\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.EB28DBE0.Up2Date
+D:\UpGrad\ASP.NetCore_Assignments\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.Business.dll
+D:\UpGrad\ASP.NetCore_Assignments\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\refint\MovieApp.Business.dll
+D:\UpGrad\ASP.NetCore_Assignments\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.Business.pdb
+D:\UpGrad\ASP.NetCore_Assignments\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\ref\MovieApp.Business.dll
