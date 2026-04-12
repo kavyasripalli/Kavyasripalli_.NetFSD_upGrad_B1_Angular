@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UpGrad\\Dapper_Assignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5714FA2A-96CA-CB6E-5139-576243C7E988}|Dapper_Assignment.csproj|d:\\upgrad\\dapper_assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5714FA2A-96CA-CB6E-5139-576243C7E988}|Dapper_Assignment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5714FA2A-96CA-CB6E-5139-576243C7E988}|Dapper_Assignment.csproj|d:\\upgrad\\dapper_assignment\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5714FA2A-96CA-CB6E-5139-576243C7E988}|Dapper_Assignment.csproj|solutionrelative:bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5714FA2A-96CA-CB6E-5139-576243C7E988}|Dapper_Assignment.csproj|d:\\upgrad\\dapper_assignment\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5714FA2A-96CA-CB6E-5139-576243C7E988}|Dapper_Assignment.csproj|solutionrelative:dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5714FA2A-96CA-CB6E-5139-576243C7E988}|Dapper_Assignment.csproj|d:\\upgrad\\dapper_assignment\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5714FA2A-96CA-CB6E-5139-576243C7E988}|Dapper_Assignment.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "D:\\UpGrad\\Dapper_Assignment\\BookRepository.cs",
+              "RelativeDocumentMoniker": "BookRepository.cs",
+              "ToolTip": "D:\\UpGrad\\Dapper_Assignment\\BookRepository.cs",
+              "RelativeToolTip": "BookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T20:03:41.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbConnection.cs",
+              "DocumentMoniker": "D:\\UpGrad\\Dapper_Assignment\\DbConnection.cs",
+              "RelativeDocumentMoniker": "DbConnection.cs",
+              "ToolTip": "D:\\UpGrad\\Dapper_Assignment\\DbConnection.cs",
+              "RelativeToolTip": "DbConnection.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T20:02:40.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\UpGrad\\Dapper_Assignment\\Book.cs",
+              "RelativeDocumentMoniker": "Book.cs",
+              "ToolTip": "D:\\UpGrad\\Dapper_Assignment\\Book.cs",
+              "RelativeToolTip": "Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T20:02:00.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\UpGrad\\Dapper_Assignment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\UpGrad\\Dapper_Assignment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAUwIcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T19:58:14.816Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
