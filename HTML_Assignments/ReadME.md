@@ -182,10 +182,10 @@ Steps followed:
 
 This project demonstrates a **complete end-to-end ASP.NET Core MVC application** with:
 
-✔ Clean architecture
-✔ Strong validation logic
-✔ User-friendly UI
-✔ Real-world business rules
-✔ Deployment experience
+* ✔ Clean architecture
+* ✔ Strong validation logic
+* ✔ User-friendly UI
+* ✔ Real-world business rules
+* ✔ Deployment experience
 
 ---
