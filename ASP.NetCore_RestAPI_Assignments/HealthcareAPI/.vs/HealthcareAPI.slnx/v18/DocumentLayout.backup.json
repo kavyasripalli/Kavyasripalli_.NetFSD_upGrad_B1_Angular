@@ -1,0 +1,509 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\dtos\\createpatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:dtos\\createpatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\controllers\\prescriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:controllers\\prescriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\services\\prescriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:services\\prescriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\services\\iprescriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:services\\iprescriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\repositories\\prescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:repositories\\prescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\repositories\\iprescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:repositories\\iprescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\services\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:services\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\repositories\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:repositories\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\services\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:services\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\repositories\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:repositories\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\services\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:services\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\repositories\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:repositories\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\healthcareapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:healthcareapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|d:\\upgrad\\asp.netcore_restapi_assignments\\healthcareapi\\migrations\\20260426093355_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:migrations\\20260426093355_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PrescriptionsController.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Controllers\\PrescriptionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PrescriptionsController.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Controllers\\PrescriptionsController.cs",
+              "RelativeToolTip": "Controllers\\PrescriptionsController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:26:34.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwB4AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T19:58:57.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Models\\Prescription.cs",
+              "RelativeDocumentMoniker": "Models\\Prescription.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Models\\Prescription.cs",
+              "RelativeToolTip": "Models\\Prescription.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T20:04:41.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "Models\\Appointment.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Models\\Appointment.cs",
+              "RelativeToolTip": "Models\\Appointment.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T20:04:20.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreatePatientDto.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\DTOs\\CreatePatientDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreatePatientDto.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\DTOs\\CreatePatientDto.cs",
+              "RelativeToolTip": "DTOs\\CreatePatientDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T14:24:41.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PrescriptionService.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Services\\PrescriptionService.cs",
+              "RelativeDocumentMoniker": "Services\\PrescriptionService.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Services\\PrescriptionService.cs",
+              "RelativeToolTip": "Services\\PrescriptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:25:36.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPrescriptionService.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Services\\IPrescriptionService.cs",
+              "RelativeDocumentMoniker": "Services\\IPrescriptionService.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Services\\IPrescriptionService.cs",
+              "RelativeToolTip": "Services\\IPrescriptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:24:56.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PrescriptionRepository.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Repositories\\PrescriptionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PrescriptionRepository.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Repositories\\PrescriptionRepository.cs",
+              "RelativeToolTip": "Repositories\\PrescriptionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:24:12.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPrescriptionRepository.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Repositories\\IPrescriptionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IPrescriptionRepository.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Repositories\\IPrescriptionRepository.cs",
+              "RelativeToolTip": "Repositories\\IPrescriptionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:23:43.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppointmentsController.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "Controllers\\AppointmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:16:14.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "Services\\AppointmentService.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "Services\\AppointmentService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA/wCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:15:35.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Services\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "Services\\IAppointmentService.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Services\\IAppointmentService.cs",
+              "RelativeToolTip": "Services\\IAppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:15:07.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppointmentRepository.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Repositories\\AppointmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AppointmentRepository.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Repositories\\AppointmentRepository.cs",
+              "RelativeToolTip": "Repositories\\AppointmentRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwBwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:14:24.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAppointmentRepository.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Repositories\\IAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IAppointmentRepository.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Repositories\\IAppointmentRepository.cs",
+              "RelativeToolTip": "Repositories\\IAppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:13:49.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DoctorsController.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Controllers\\DoctorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoctorsController.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Controllers\\DoctorsController.cs",
+              "RelativeToolTip": "Controllers\\DoctorsController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwBEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T15:27:10.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IDoctorService.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Services\\IDoctorService.cs",
+              "RelativeDocumentMoniker": "Services\\IDoctorService.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Services\\IDoctorService.cs",
+              "RelativeToolTip": "Services\\IDoctorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T15:25:30.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Repositories\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DoctorRepository.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Repositories\\DoctorRepository.cs",
+              "RelativeToolTip": "Repositories\\DoctorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T15:24:49.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "Models\\Doctor.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Models\\Doctor.cs",
+              "RelativeToolTip": "Models\\Doctor.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA9wBgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T20:04:01.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Models\\Patient.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Models\\Patient.cs",
+              "RelativeToolTip": "Models\\Patient.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswB8AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T20:03:34.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "Services\\DoctorService.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Services\\DoctorService.cs",
+              "RelativeToolTip": "Services\\DoctorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T15:26:07.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IDoctorRepository.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Repositories\\IDoctorRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IDoctorRepository.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Repositories\\IDoctorRepository.cs",
+              "RelativeToolTip": "Repositories\\IDoctorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T15:24:21.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientsController.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "Controllers\\PatientsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T13:38:35.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "Services\\PatientService.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Services\\PatientService.cs",
+              "RelativeToolTip": "Services\\PatientService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T13:36:04.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IPatientService.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Services\\IPatientService.cs",
+              "RelativeDocumentMoniker": "Services\\IPatientService.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Services\\IPatientService.cs",
+              "RelativeToolTip": "Services\\IPatientService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA9wAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T13:35:37.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Repositories\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PatientRepository.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Repositories\\PatientRepository.cs",
+              "RelativeToolTip": "Repositories\\PatientRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T13:22:13.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IPatientRepository.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Repositories\\IPatientRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IPatientRepository.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Repositories\\IPatientRepository.cs",
+              "RelativeToolTip": "Repositories\\IPatientRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA9wAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T13:18:35.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAcwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T20:06:05.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20260426093355_InitialCreate.cs",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Migrations\\20260426093355_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260426093355_InitialCreate.cs",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\Migrations\\20260426093355_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260426093355_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T09:33:56.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HealthcareAPI.csproj",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\HealthcareAPI.csproj",
+              "RelativeDocumentMoniker": "HealthcareAPI.csproj",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\HealthcareAPI.csproj",
+              "RelativeToolTip": "HealthcareAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-25T20:02:03.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-25T20:07:52.758Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
