@@ -11,15 +11,15 @@
   },
   {
     "ContainingType": "HealthcareAPI.Controllers.AppointmentsController",
-    "Method": "Book",
+    "Method": "Add",
     "RelativePath": "api/Appointments",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "appointment",
-        "Type": "HealthcareAPI.Models.Appointment",
+        "Name": "dto",
+        "Type": "HealthcareAPI.DTOs.CreateAppointmentDto",
         "IsRequired": true
       }
     ],
@@ -58,6 +58,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HealthcareAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "HealthcareAPI.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HealthcareAPI.Controllers.DoctorsController",
     "Method": "GetAll",
     "RelativePath": "api/Doctors",
@@ -76,8 +92,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "doctor",
-        "Type": "HealthcareAPI.Models.Doctor",
+        "Name": "dto",
+        "Type": "HealthcareAPI.DTOs.CreateDoctorDto",
         "IsRequired": true
       }
     ],

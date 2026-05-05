@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using HealthcareAPI.Models;
 using HealthcareAPI.Services;
+using HealthcareAPI.DTOs;
 
 namespace HealthcareAPI.Controllers
 {
@@ -19,7 +20,18 @@ namespace HealthcareAPI.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            return Ok(_service.GetAll());
+            var appointments = _service.GetAll();
+
+            var result = appointments.Select(a => new AppointmentResponseDto
+            {
+                AppointmentId = a.AppointmentId,
+                PatientId = a.PatientId,
+                DoctorId = a.DoctorId,
+                AppointmentDate = a.AppointmentDate,
+                Status = a.Status
+            });
+
+            return Ok(result);
         }
 
         // GET appointments by patient
@@ -31,8 +43,16 @@ namespace HealthcareAPI.Controllers
 
         // BOOK appointment
         [HttpPost]
-        public IActionResult Book(Appointment appointment)
+        public IActionResult Add(CreateAppointmentDto dto)
         {
+            var appointment = new Appointment
+            {
+                PatientId = dto.PatientId,
+                DoctorId = dto.DoctorId,
+                AppointmentDate = dto.AppointmentDate,
+                Status = "Booked"
+            };
+
             _service.Book(appointment);
             return Ok(appointment);
         }

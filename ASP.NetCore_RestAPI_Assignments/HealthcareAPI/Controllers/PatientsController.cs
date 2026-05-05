@@ -3,6 +3,7 @@ using HealthcareAPI.Models;
 using HealthcareAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 using HealthcareAPI.DTOs;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HealthcareAPI.Controllers
 {
@@ -18,6 +19,7 @@ namespace HealthcareAPI.Controllers
         }
 
         // GET: api/patients
+        [Authorize]
         [HttpGet]
         public IActionResult GetAll()
         {

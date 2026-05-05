@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\HealthcareAPI.csproj": {}
+    "C:\\Users\\hi\\Desktop\\Kavya_Github_UpGrad\\Kavyasripalli_.NetFSD_upGrad_B1_Angular\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\HealthcareAPI.csproj": {}
   },
   "projects": {
-    "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\HealthcareAPI.csproj": {
+    "C:\\Users\\hi\\Desktop\\Kavya_Github_UpGrad\\Kavyasripalli_.NetFSD_upGrad_B1_Angular\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\HealthcareAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\HealthcareAPI.csproj",
+        "projectUniqueName": "C:\\Users\\hi\\Desktop\\Kavya_Github_UpGrad\\Kavyasripalli_.NetFSD_upGrad_B1_Angular\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\HealthcareAPI.csproj",
         "projectName": "HealthcareAPI",
-        "projectPath": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\HealthcareAPI.csproj",
+        "projectPath": "C:\\Users\\hi\\Desktop\\Kavya_Github_UpGrad\\Kavyasripalli_.NetFSD_upGrad_B1_Angular\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\HealthcareAPI.csproj",
         "packagesPath": "C:\\Users\\hi\\.nuget\\packages\\",
-        "outputPath": "D:\\UpGrad\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\obj\\",
+        "outputPath": "C:\\Users\\hi\\Desktop\\Kavya_Github_UpGrad\\Kavyasripalli_.NetFSD_upGrad_B1_Angular\\ASP.NetCore_RestAPI_Assignments\\HealthcareAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,6 +52,10 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[10.0.7, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.6, )"
@@ -100,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

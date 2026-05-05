@@ -24,17 +24,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Appointment"
+                "$ref": "#/components/schemas/CreateAppointmentDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Appointment"
+                "$ref": "#/components/schemas/CreateAppointmentDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Appointment"
+                "$ref": "#/components/schemas/CreateAppointmentDto"
               }
             }
           }
@@ -92,6 +92,37 @@
         }
       }
     },
+    "/api/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Doctors": {
       "get": {
         "tags": [
@@ -111,17 +142,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Doctor"
+                "$ref": "#/components/schemas/CreateDoctorDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Doctor"
+                "$ref": "#/components/schemas/CreateDoctorDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Doctor"
+                "$ref": "#/components/schemas/CreateDoctorDto"
               }
             }
           }
@@ -360,13 +391,9 @@
   },
   "components": {
     "schemas": {
-      "Appointment": {
+      "CreateAppointmentDto": {
         "type": "object",
         "properties": {
-          "appointmentId": {
-            "type": "integer",
-            "format": "int32"
-          },
           "patientId": {
             "type": "integer",
             "format": "int32"
@@ -378,10 +405,31 @@
           "appointmentDate": {
             "type": "string",
             "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateDoctorDto": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 1,
+            "type": "string"
           },
-          "status": {
+          "specialization": {
             "type": "string",
             "nullable": true
+          },
+          "experience": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "consultationFee": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false
@@ -415,36 +463,16 @@
         },
         "additionalProperties": false
       },
-      "Doctor": {
-        "required": [
-          "name",
-          "specialization"
-        ],
+      "LoginModel": {
         "type": "object",
         "properties": {
-          "doctorId": {
-            "type": "integer",
-            "format": "int32"
+          "username": {
+            "type": "string",
+            "nullable": true
           },
-          "name": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "specialization": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "experience": {
-            "maximum": 50,
-            "minimum": 0,
-            "type": "integer",
-            "format": "int32"
-          },
-          "consultationFee": {
-            "maximum": 10000,
-            "minimum": 0,
-            "type": "number",
-            "format": "double"
+          "password": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -523,6 +551,9 @@
   "tags": [
     {
       "name": "Appointments"
+    },
+    {
+      "name": "Auth"
     },
     {
       "name": "Doctors"

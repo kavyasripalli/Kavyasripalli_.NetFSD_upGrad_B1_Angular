@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using HealthcareAPI.Models;
 using HealthcareAPI.Services;
+using HealthcareAPI.DTOs;
 
 namespace HealthcareAPI.Controllers
 {
@@ -19,7 +20,18 @@ namespace HealthcareAPI.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            return Ok(_service.GetAllDoctors());
+            var doctors = _service.GetAllDoctors();
+
+            var result = doctors.Select(d => new DoctorResponseDto
+            {
+                DoctorId = d.DoctorId,
+                Name = d.Name,
+                Specialization = d.Specialization,
+                Experience = d.Experience,
+                ConsultationFee = d.ConsultationFee
+            });
+
+            return Ok(result);
         }
 
         // ADD THIS HERE 👇 (Get by Id)
@@ -40,17 +52,36 @@ namespace HealthcareAPI.Controllers
         public IActionResult GetBySpecialization(string specialization)
         {
             var doctor = _service.GetDoctorBySpecialization(specialization);
+
             if (doctor == null)
                 return NotFound();
 
-            return Ok(doctor);
+            var result = new DoctorResponseDto
+            {
+                DoctorId = doctor.DoctorId,
+                Name = doctor.Name,
+                Specialization = doctor.Specialization,
+                Experience = doctor.Experience,
+                ConsultationFee = doctor.ConsultationFee
+            };
+
+            return Ok(result);
         }
 
         // POST: api/doctors
         [HttpPost]
-        public IActionResult Add(Doctor doctor)
+        public IActionResult Add(CreateDoctorDto dto)
         {
+            var doctor = new Doctor
+            {
+                Name = dto.Name,
+                Specialization = dto.Specialization,
+                Experience = dto.Experience,
+                ConsultationFee = dto.ConsultationFee
+            };
+
             _service.AddDoctor(doctor);
+
             return Ok(doctor);
         }
     }
