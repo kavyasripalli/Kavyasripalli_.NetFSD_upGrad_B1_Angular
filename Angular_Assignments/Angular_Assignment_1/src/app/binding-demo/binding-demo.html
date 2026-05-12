@@ -1,0 +1,100 @@
+<h1>One-Way Binding Demo</h1>
+
+<!-- Interpolation -->
+<h2>Student Name: {{ studentName }}</h2>
+
+<!-- Property Binding -->
+<img [src]="imageUrl" width="200">
+
+<br><br>
+
+<!-- Event Binding -->
+<button (click)="showMessage()">
+  Click Me
+</button>
+
+<hr>
+
+<h1>Two-Way Binding Form</h1>
+
+<label>Name:</label>
+<input type="text" [(ngModel)]="name">
+
+<br><br>
+
+<label>Email:</label>
+<input type="email" [(ngModel)]="email">
+
+<hr>
+
+<h3>Entered Values</h3>
+
+<p>Name: {{ name }}</p>
+
+<p>Email: {{ email }}</p>
+
+<hr>
+
+<h1>Product List</h1>
+
+<div *ngFor="let product of products">
+
+  <p>Id: {{ product.id }}</p>
+
+  <p>Name: {{ product.name }}</p>
+
+  <p>Price: {{ product.price }}</p>
+
+  <p>Quantity: {{ product.quantity }}</p>
+
+  <hr>
+
+</div>
+
+<hr>
+
+<h1>ngIf Example</h1>
+
+<button (click)="toggleLogin()">
+  Toggle Login
+</button>
+
+<p *ngIf="isLoggedIn">
+  Welcome User
+</p>
+
+<hr>
+
+<h1>ngFor Example</h1>
+
+<ul>
+
+  <li *ngFor="let course of courses; let i = index">
+
+    {{ i + 1 }} - {{ course }}
+
+  </li>
+
+</ul>
+
+<hr>
+
+<h1>Combined ngFor + ngIf Example</h1>
+
+<div *ngFor="let product of products">
+
+  <h3>{{ product.name }}</h3>
+
+  <p>Price: {{ product.price }}</p>
+
+  <p *ngIf="product.price > 500">
+    Premium Product
+  </p>
+
+  <p *ngIf="product.price <= 500">
+    Budget Product
+  </p>
+
+  <hr>
+
+</div>

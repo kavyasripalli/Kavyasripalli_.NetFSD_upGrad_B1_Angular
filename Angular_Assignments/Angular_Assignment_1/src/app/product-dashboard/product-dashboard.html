@@ -1,0 +1,55 @@
+<h1>Simple Product Dashboard</h1>
+
+<hr>
+
+<h2>Add Product</h2>
+
+<label>Id:</label>
+<input type="number" [(ngModel)]="newProduct.id">
+
+<br><br>
+
+<label>Name:</label>
+<input type="text" [(ngModel)]="newProduct.name">
+
+<br><br>
+
+<label>Price:</label>
+<input type="number" [(ngModel)]="newProduct.price">
+
+<br><br>
+
+<label>Quantity:</label>
+<input type="number" [(ngModel)]="newProduct.quantity">
+
+<br><br>
+
+<button (click)="addProduct()">
+  Add Product
+</button>
+
+<hr>
+
+<h2>Product List</h2>
+
+<div *ngFor="let product of products">
+
+  <h3>{{ product.name }}</h3>
+
+  <p>Id: {{ product.id }}</p>
+
+  <p>Price: {{ product.price }}</p>
+
+  <p>Quantity: {{ product.quantity }}</p>
+
+  <p *ngIf="product.quantity > 0">
+    In Stock
+  </p>
+
+  <p *ngIf="product.quantity == 0">
+    Out of Stock
+  </p>
+
+  <hr>
+
+</div>
