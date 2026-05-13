@@ -1,0 +1,11 @@
+<h1>Product List</h1>
+
+<div *ngFor="let product of products; let i = index">
+
+  <h3>{{ i + 1 }}. {{ product.name }}</h3>
+
+  <p>Price: {{ product.price }}</p>
+
+  <hr>
+
+</div>

@@ -1,0 +1,17 @@
+.failed {
+
+  background-color: lightcoral;
+
+}
+
+.passed {
+
+  background-color: lightgreen;
+
+}
+
+table {
+
+  margin-top: 20px;
+
+}

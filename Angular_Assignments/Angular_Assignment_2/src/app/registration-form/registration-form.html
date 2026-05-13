@@ -1,0 +1,66 @@
+<h1>Registration Form Validation</h1>
+
+<form #registerForm="ngForm"
+      (ngSubmit)="onSubmit()">
+
+  <!-- NAME -->
+
+  <label>Name:</label>
+
+  <input
+    type="text"
+    name="name"
+    [(ngModel)]="name"
+    required
+    #nameInput="ngModel"
+  >
+
+  <div *ngIf="nameInput.invalid && nameInput.touched">
+
+    <small>Name is required</small>
+
+  </div>
+
+  <br><br>
+
+  <!-- EMAIL -->
+
+  <label>Email:</label>
+
+  <input
+    type="email"
+    name="email"
+    [(ngModel)]="email"
+    required
+    email
+    #emailInput="ngModel"
+  >
+
+  <div *ngIf="emailInput.invalid && emailInput.touched">
+
+    <small>Enter valid email</small>
+
+  </div>
+
+  <br><br>
+
+  <!-- PASSWORD -->
+
+  <label>Password:</label>
+
+  <input
+    type="password"
+    name="password"
+    [(ngModel)]="password"
+  >
+
+  <br><br>
+
+  <button
+    type="submit"
+    [disabled]="registerForm.invalid"
+  >
+    Register
+  </button>
+
+</form>

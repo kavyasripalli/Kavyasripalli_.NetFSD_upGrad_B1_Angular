@@ -1,0 +1,100 @@
+<h1>Student Management UI</h1>
+
+<hr>
+
+<!-- SEARCH -->
+
+<label>Search Student:</label>
+
+<input
+  type="text"
+  [(ngModel)]="searchText"
+>
+
+<hr>
+
+<!-- ADD STUDENT -->
+
+<h2>Add Student</h2>
+
+<label>Name:</label>
+
+<input
+  type="text"
+  [(ngModel)]="newStudent.name"
+>
+
+<br><br>
+
+<label>Course:</label>
+
+<input
+  type="text"
+  [(ngModel)]="newStudent.course"
+>
+
+<br><br>
+
+<label>Marks:</label>
+
+<input
+  type="number"
+  [(ngModel)]="newStudent.marks"
+>
+
+<br><br>
+
+<button (click)="addStudent()">
+  Add Student
+</button>
+
+<hr>
+
+<!-- TABLE -->
+
+<table border="1" cellpadding="10">
+
+  <tr>
+
+    <th>Name</th>
+
+    <th>Course</th>
+
+    <th>Marks</th>
+
+    <th>Status</th>
+
+  </tr>
+
+  <tr
+    *ngFor="
+  let student of students
+    .filter(s =>
+      s.name
+      .toLowerCase()
+      .includes(searchText.toLowerCase())
+    )
+"
+  >
+
+    <td>{{ student.name }}</td>
+
+    <td>{{ student.course }}</td>
+
+    <td>{{ student.marks }}</td>
+
+    <td>
+
+      <span *ngIf="student.marks >= 35">
+        Pass
+      </span>
+
+      <span *ngIf="student.marks < 35">
+        Fail
+      </span>
+
+    </td>
+
+  </tr>
+
+</table>

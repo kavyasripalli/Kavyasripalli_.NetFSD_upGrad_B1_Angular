@@ -1,0 +1,11 @@
+<h1>Task List</h1>
+
+<div *ngFor="let task of tasks">
+
+  <h3
+    [ngClass]="task.completed ? 'completed' : 'pending'"
+  >
+    {{ task.name }}
+  </h3>
+
+</div>

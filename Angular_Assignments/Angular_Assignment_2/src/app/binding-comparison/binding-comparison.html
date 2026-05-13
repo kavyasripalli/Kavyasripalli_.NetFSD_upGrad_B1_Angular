@@ -1,0 +1,34 @@
+<h1>Binding Comparison</h1>
+
+<hr>
+
+<h2>1. Interpolation</h2>
+
+<p>{{ title }}</p>
+
+<hr>
+
+<h2>2. Property Binding</h2>
+
+<img [src]="imageUrl" width="150">
+
+<hr>
+
+<h2>3. Event Binding</h2>
+
+<p>Count: {{ count }}</p>
+
+<button (click)="increaseCount()">
+  Increment
+</button>
+
+<hr>
+
+<h2>4. Two-Way Binding</h2>
+
+<input
+  type="text"
+  [(ngModel)]="userName"
+>
+
+<p>User Name: {{ userName }}</p>

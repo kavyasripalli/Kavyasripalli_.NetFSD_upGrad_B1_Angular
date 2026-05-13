@@ -1,0 +1,49 @@
+<h1>Dynamic Phone Numbers</h1>
+
+<form
+  [formGroup]="phoneForm"
+  (ngSubmit)="onSubmit()"
+>
+
+  <div formArrayName="phones">
+
+    <div
+      *ngFor="
+        let phone of phones.controls;
+        let i = index
+      "
+    >
+
+      <input
+        type="text"
+        [formControlName]="i"
+        placeholder="Enter phone number"
+      >
+
+      <button
+        type="button"
+        (click)="removePhone(i)"
+      >
+        Remove
+      </button>
+
+      <br><br>
+
+    </div>
+
+  </div>
+
+  <button
+    type="button"
+    (click)="addPhone()"
+  >
+    Add Phone
+  </button>
+
+  <br><br>
+
+  <button type="submit">
+    Submit
+  </button>
+
+</form>

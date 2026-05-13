@@ -1,0 +1,26 @@
+<h1>ngStyle Example</h1>
+
+<p
+  [ngStyle]="{
+    'font-size.px': fontSize,
+    'color': textColor
+  }"
+>
+  Angular ngStyle Directive
+</p>
+
+<button (click)="increaseSize()">
+  Increase Font
+</button>
+
+<button (click)="changeColor('red')">
+  Red
+</button>
+
+<button (click)="changeColor('blue')">
+  Blue
+</button>
+
+<button (click)="changeColor('green')">
+  Green
+</button>
