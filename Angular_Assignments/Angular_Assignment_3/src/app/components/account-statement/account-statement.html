@@ -1,0 +1,157 @@
+<h1>Account Statement</h1>
+<h2>
+
+Original:
+
+{{accountHolder}}
+
+</h2>
+
+<h2>
+
+Uppercase:
+
+{{accountHolder | uppercase}}
+
+</h2>
+
+<h2>
+
+Lowercase:
+
+{{accountHolder | lowercase}}
+
+</h2>
+
+<hr>
+
+<h2>
+
+Interest Rate:
+
+{{interestRate | percent}}
+
+</h2>
+
+<hr>
+
+<h2>
+
+Account Number:
+
+{{accountNumber | maskAccount}}
+
+</h2>
+
+<hr>
+
+<h2>
+
+Transactions Above ₹10000
+
+</h2>
+
+<ul>
+
+<li
+
+*ngFor=
+
+"let t of transactions
+| filterTransaction:10000"
+
+>
+
+{{t.name}}
+
+-
+
+{{t.amount
+| currency:'INR'}}
+
+</li>
+
+</ul>
+
+<hr>
+
+<h2>
+
+Chained Pipes Example
+
+</h2>
+
+<ul>
+
+<li
+
+*ngFor="let t of transactions
+| filterTransaction:10000
+| slice:0:1"
+
+>
+
+{{t.name | uppercase}}
+
+-
+
+{{t.amount
+| currency:'INR'}}
+
+</li>
+
+</ul>
+
+<hr>
+
+<h2>Amount In Words</h2>
+
+<ul>
+
+<li *ngFor="let t of transactions">
+
+{{t.amount}}
+
+=
+
+{{t.amount | amountWords}}
+
+</li>
+
+</ul>
+
+<table border="1">
+
+<tr>
+
+<th>Transaction</th>
+
+<th>Amount</th>
+
+<th>Date</th>
+
+</tr>
+
+<tr *ngFor="let t of transactions">
+
+<td>
+
+{{t.name}}
+
+</td>
+
+<td>
+
+{{t.amount | currency:'INR'}}
+
+</td>
+
+<td>
+
+{{t.date | date:'dd-MM-yyyy'}}
+
+</td>
+
+</tr>
+
+</table>

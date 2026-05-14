@@ -1,0 +1,53 @@
+<h2>Products</h2>
+
+<button
+(click)="setCategory('electronics')">
+Electronics
+</button>
+
+<button
+(click)="setCategory('fashion')">
+Fashion
+</button>
+
+<hr>
+
+<p>
+
+Selected Category:
+
+{{category}}
+
+</p>
+
+<ul>
+
+<li *ngFor="let product of filteredProducts">
+
+{{product.name}}
+
+</li>
+
+</ul>
+
+<hr>
+
+<h3>Nested Routes</h3>
+
+<a routerLink="details">
+
+Details
+
+</a>
+
+|
+
+<a routerLink="reviews">
+
+Reviews
+
+</a>
+
+<hr>
+
+<router-outlet></router-outlet>

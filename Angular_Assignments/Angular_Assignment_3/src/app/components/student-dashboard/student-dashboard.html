@@ -1,0 +1,108 @@
+<h1>Student Dashboard</h1>
+
+<table border="1">
+
+<tr>
+
+<th>Name</th>
+
+<th>Class</th>
+
+<th>Marks</th>
+
+<th>Badge</th>
+
+<th>Grade</th>
+
+<th>Action</th>
+
+</tr>
+
+<tr
+
+appHighlight
+
+*ngFor="let student of students"
+
+[ngClass]="{
+
+'failed':student.marks<35
+
+}"
+>
+
+<td>{{student.name}}</td>
+
+<td>{{student.class}}</td>
+
+<td
+
+[ngStyle]="{
+
+'font-size.px':
+
+student.marks
+
+}"
+
+>
+
+{{student.marks}}
+
+</td>
+
+<td>
+
+<span *ngIf="student.marks>90">
+
+🏆 Topper
+
+</span>
+
+</td>
+
+<td [ngSwitch]="getGrade(student.marks)">
+
+<span *ngSwitchCase="'A'">
+
+A
+
+</span>
+
+<span *ngSwitchCase="'B'">
+
+B
+
+</span>
+
+<span *ngSwitchCase="'C'">
+
+C
+
+</span>
+
+<span *ngSwitchDefault>
+
+Fail
+
+</span>
+
+</td>
+
+<td>
+
+<button
+
+[appDisableButton]="student.absent"
+
+>
+
+View Profile
+
+</button>
+
+</td>
+
+</tr>
+
+</table>
